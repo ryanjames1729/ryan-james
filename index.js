@@ -31,7 +31,7 @@ const links = [
     { name: chalk.hex("#fff").bgHex("#ADD8E6")("GitHub"), url: "    https://github.com/ryanjames1729" },
     { name: chalk.hex("#fff").bgHex("#00008b")("Twitter"), url: "   https://twitter.com/rjames1729" },
     { name: chalk.hex("#fff").bgHex("#BF40BF")("Discord"), url: "   https://discord.gg/ryanjames1729" },
-    { name: chalk.hex("#fff").bgHex("#880808")("E-mail"), url: "   ryanjames1729@gmail.com" },
+    { name: chalk.hex("#fff").bgHex("#880808")("E-mail"), url: "    ryanjames1729@gmail.com" },
   ];
 
 const linkList = links.map(link => `   - ${link.name}: ${link.url}`).join('\n');
